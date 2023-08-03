@@ -4,18 +4,6 @@ import ListaSuspensa from "../ListaSuspensa/ListaSuspensa"
 import Botao from "../Botao/Botao"
 import { useState } from 'react';
 
-const times = [
-    'Programação',
-    'Front-End',
-    'Data Science',
-    'Devops',
-    'UX e Design',
-    'Mobile',
-    'Inovação e Gestão'
-]
-
-
-
 const Formulario = (props) => {
     
     const [nome, setNome] = useState('')
@@ -60,7 +48,7 @@ const Formulario = (props) => {
                 <ListaSuspensa 
                 obrigatorio={true} 
                 label="Time" 
-                itens={times} 
+                itens={props.times} 
                 valor={time}
                 aoAlterado={valor => setTime(valor)}
                 />
