@@ -1,0 +1,31 @@
+footer {
+    background-color:#6278F7;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    padding: 89px;
+}
+
+footer .icones {
+    width: 162px;
+    height: 35px;
+}
+
+footer .icone {
+    padding-left: 20px;
+    width: 32px;
+    height: 35px;
+
+}
+
+footer .iconeOrgano {
+    padding-left: 20px;
+    width: 166px;
+    height: 63px;
+}
+
+footer p {
+    color: white;
+    font-weight: 700;
+    font-size: larger;
+}
